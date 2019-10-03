@@ -715,18 +715,3 @@ class DivFloat(Float):
             self._signed = False
 
         return self
-
-x = Float(-5.23)
-x + 3
-print(x)
-x * 5
-print(x)
-x << 2
-print(x)
-x / 0.2
-print(x)
-x / -21.2
-print(x)
-Float(x) * 4
-print(x)
-print(x.representation_int)
